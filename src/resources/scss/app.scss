@@ -1,9 +1,21 @@
-@import 'variable';
+@import "variable";
 
-h1 {
-  color: $red-color;
+.card-course-item {
+  margin-top: 16px;
 }
 
-h2 {
-  color: green;
+.test {
+  color: red;
+}
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.checbox-select-all-options {
+  width: 160px;
+  margin: 0 16px;
 }
